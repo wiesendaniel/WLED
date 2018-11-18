@@ -34,4 +34,4 @@ install:
 script:
     - pwd
     - printenv
-    - platformio ci --project-conf=./platformio.ini --lib=./wled00/src --keep-build-dir -v
+    - platformio ci --project-conf=./platformio.ini --lib=./wled00 --keep-build-dir -v

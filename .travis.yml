@@ -27,8 +27,7 @@ cache:
     directories:
         - "~/.platformio"
 env:
-    - PLATFORMIO_CI_SRC=./wled00
-    - PLATFORMIO_ENVS_DIR=~/.pioenvs
+    - PLATFORMIO_CI_SRC=./wled00 PLATFORMIO_ENVS_DIR=~/.pioenvs
 install:
     - pip install -U platformio
     - platformio update
